@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dikesh Uprety - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Dikesh.</div>
+        <nav>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                <i class="fas fa-moon"></i>
+            </button>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#languages">Languages</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="hire-me">Hire me</button>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content animate-slideInLeft">
+                <h2>Software Developer</h2>
+                <h1>Hello I'm <span class="highlight">Dikesh Uprety</span></h1>
+                <p class="animate-fadeInUp">Passionate developer with expertise in multiple programming languages and technologies. Creating elegant digital experiences through code.</p>
+                
+                <div class="cta-buttons animate-fadeInUp">
+                    <a href="#" class="download-cv">DOWNLOAD CV <i class="fas fa-download"></i></a>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image animate-slideInRight">
+                <div class="profile-circle">
+                    <div class="circle-content">
+                        <div class="tech-ring">
+                            <!-- Éléments IA -->
+                            <div class="tech-item ai">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <div class="tech-item ai">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <div class="tech-item ai">
+                                <i class="fas fa-microchip"></i>
+                            </div>
+                            <!-- Éléments Cybersécurité -->
+                            <div class="tech-item security">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <div class="tech-item security">
+                                <i class="fas fa-lock"></i>
+                            </div>
+                            <div class="tech-item security">
+                                <i class="fas fa-user-shield"></i>
+                            </div>
+                        </div>
+                        <div class="circle-center">
+                            <div class="pulse"></div>
+                            <i class="fas fa-code"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills animate-fadeInUp">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-container">
+                <div class="skill-card" data-skill="HTML/CSS">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML/CSS</h3>
+                    <div class="skill-level">
+                        <div class="progress" style="width: 50%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="Java">
+                    <i class="fab fa-java"></i>
+                    <h3>Java</h3>
+                    <div class="skill-level">
+                        <div class="progress" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="PHP">
+                    <i class="fab fa-php"></i>
+                    <h3>PHP</h3>
+                    <div class="skill-level">
+                        <div class="progress" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="C">
+                    <i class="fas fa-code"></i>
+                    <h3>C</h3>
+                    <div class="skill-level">
+                        <div class="progress" style="width: 75%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="OCaml">
+                    <i class="fas fa-terminal"></i>
+                    <h3>OCaml</h3>
+                    <div class="skill-level">
+                        <div class="progress" style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="Python">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                    <div class="skill-level">
+                        <div class="progress" style="width: 60%"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card animate-fadeInUp">
+                    <div class="project-image">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Social Network</h3>
+                    <p>A social networking platform built with HTML, CSS, and PHP</p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>PHP</span>
+                    </div>
+                </div>
+                <div class="project-card animate-fadeInUp">
+                    <div class="project-image">
+                        <i class="fas fa-chess-rook"></i>
+                    </div>
+                    <h3>Tower Defense</h3>
+                    <p>A Java-based tower defense game with strategic gameplay</p>
+                    <div class="project-tags">
+                        <span>Java</span>
+                    </div>
+                </div>
+                <div class="project-card animate-fadeInUp">
+                    <div class="project-image">
+                        <i class="fas fa-ghost"></i>
+                    </div>
+                    <h3>Pacman</h3>
+                    <p>Classic Pacman game recreation in Java</p>
+                    <div class="project-tags">
+                        <span>Java</span>
+                    </div>
+                </div>
+                <div class="project-card animate-fadeInUp">
+                    <div class="project-image">
+                        <i class="fas fa-train"></i>
+                    </div>
+                    <h3>Rail Adventure</h3>
+                    <p>A Java-based adventure game with rail mechanics</p>
+                    <div class="project-tags">
+                        <span>Java</span>
+                    </div>
+                </div>
+                <div class="project-card animate-fadeInUp">
+                    <div class="project-image">
+                        <i class="fas fa-terminal"></i>
+                    </div>
+                    <h3>Mini Shell</h3>
+                    <p>A minimal shell implementation in C</p>
+                    <div class="project-tags">
+                        <span>C</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="languages" class="languages">
+            <h2 class="section-title">Languages</h2>
+            <div class="language-grid">
+                <div class="language-card animate-fadeInUp">
+                    <div class="language-flag">🇬🇧</div>
+                    <h3>English</h3>
+                    <div class="language-level">Professional</div>
+                </div>
+                <div class="language-card animate-fadeInUp">
+                    <div class="language-flag">🇫🇷</div>
+                    <h3>French</h3>
+                    <div class="language-level">Professional</div>
+                </div>
+                <div class="language-card animate-fadeInUp">
+                    <div class="language-flag">🇳🇵</div>
+                    <h3>Nepali</h3>
+                    <div class="language-level">Native</div>
+                </div>
+                <div class="language-card animate-fadeInUp">
+                    <div class="language-flag">🇮🇳</div>
+                    <h3>Hindi</h3>
+                    <div class="language-level">Professional</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="stats">
+            <div class="stat-item">
+                <h3 data-target="4">0</h3>
+                <p>Languages</p>
+            </div>
+            <div class="stat-item">
+                <h3 data-target="6">0</h3>
+                <p>Programming Languages</p>
+            </div>
+            <div class="stat-item">
+                <h3 data-target="5">0</h3>
+                <p>Major Projects</p>
+            </div>
+            <div class="stat-item">
+                <h3 data-target="2">0</h3>
+                <p>Development Tools</p>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
